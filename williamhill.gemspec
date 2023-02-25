@@ -2,11 +2,11 @@
 require File.expand_path('../lib/williamhill/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Cristian Planas"]
+  gem.authors       = ["Cristian Planas","Jason Crockett"]
   gem.email         = ["me@cristianplanas.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = "a lib for the williamhill api"
+  gem.summary       = "a lib for the williamhill api"
+  gem.homepage      = "https://github.com/Gawyn/williamhill"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
